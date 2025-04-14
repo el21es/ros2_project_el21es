@@ -1,0 +1,10 @@
+1 - Utilise go to pose for navigation, set specific points onm map to navigate
+2 - Once position is reached, do full rotation to look for specific colours
+3 - If colour is identified, perform accordingly ie, go-to's are used to first sample certain locations, then once colour found adapt to task
+
+Create map from navigating file, see if go to works. If not implement a wall following algorithym with incremental turnarounds
+
+Can only have one node
+Need to have rviz open for things to work
+ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/ros2_ws/src/ros2_project_el21es/map/map.yaml
+ros2 run ros2_project_el21es nav_project
